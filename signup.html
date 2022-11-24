@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/styles.css">
+    <title>Signup</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div>
+                <a width="80" alt="logo">
+                    <img src="img/astronaut.jpg" alt="logo" class="header-logo">
+                </a>
+                <h1 class="title">Muhammad Sabah Ibrahim</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li class="nav-item dropdown-container">
+                        <a class="nav-link" href="">Layout Design &#x25BC;</a>
+                        <ul class="dropdown-items-container">
+                            <li><a class="nav-sub-link" href=" layout/float.html">Float layout with side nav</a>
+                            </li>
+                            <li><a class="nav-sub-link" href="layout/flex.html">Flexbox layout with side nav</a></li>
+                            <li><a class="nav-sub-link" href="layout/grid.html">Blog grid view</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="signup.html">Signup</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signin.html">Signin</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="signup-container ">
+            <h2 class="form-title">Signup Form</h2>
+            <form class="signup-form">
+                <div>
+                    <label class="label">Username</label>
+                    <input class="input" type="text" placeholder="Username">
+                </div>
+                <div>
+                    <label class="label">Full Name</label>
+                    <input class="input" type="text" placeholder="Full Name">
+                </div>
+                <div>
+                    <label class="label">Email</label>
+                    <input class="input" type="email" placeholder="domain@example.com">
+                </div>
+                <div>
+                    <label class="label">Telephone</label>
+                    <input class="input" type="tel" placeholder="00964 000 000 00 00">
+                </div>
+                <div>
+                    <label class="label">Password</label>
+                    <input class="input" type="password" placeholder="Password">
+                </div>
+                <div>
+                    <label class="label">Date of Birth</label>
+                    <input class="input" type="date" placeholder="mm/dd/yyyy">
+                </div>
+                <div>
+                    <label class="label">Profile Color</label>
+                    <input class="input input-color" type="color">
+                </div>
+                <fieldset class="input">
+                    <legend class="legend">Martial status</legend>
+                    <p>
+                        <input type="radio" name="martial">
+                        <label>Single</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="martial">
+                        <label>Married</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="martial">
+                        <label>It is private</label>
+                    </p>
+                </fieldset>
+                <div>
+                    <label class="label">No. of Children</label>
+                    <select class="input">
+                        <option>
+                            None
+                        </option>
+                        <option>
+                            1
+                        </option>
+                        <option>
+                            2
+                        </option>
+                        <option>
+                            3
+                        </option>
+                        <option>
+                            4
+                        </option>
+                        <option>
+                            More
+                        </option>
+
+                    </select>
+                </div>
+                <div>
+                    <label class="label">Choose your Degrees</label>
+                    <select class="input" multiple>
+                        <option>Diploma</option>
+                        <option>Bachelor of Science (BSc)</option>
+                        <option>Bachelor of Arts (BA)</option>
+                        <option>High Diploma</option>
+                        <option>Master of Science (MSc)</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="label">About Yourself</label>
+                    <textarea class="input" cols="30" rows="4" placeholder="About Yourself"></textarea>
+                </div>
+                <div>
+                    <label class="label">Upload your CV</label>
+                    <input class="input" type="file">
+                </div>
+                <fieldset class="input">
+                    <legend class="legend">Gender</legend>
+                    <p>
+                        <input type="radio" name="gender">
+                        <label>Male</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="gender">
+                        <label>Female</label>
+                    </p>
+                </fieldset>
+                <fieldset class="input">
+                    <legend class="legend">Agreements</legend>
+                    <p>Please read the terms and agreements</p>
+                    <p>
+                        <input type="checkbox">
+                        <label>I have read all the terms</label>
+                    </p>
+                    <p>
+                        <input type="checkbox">
+                        <label>Yes, I agree</label>
+                    </p>
+                </fieldset>
+                <div class="singup-btns">
+                    <button class="signup-btn">Signup</button>
+                    <button class="reset-btn">Reset</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div>
+                <h4>Sitemap</h4>
+                <ul class="footer-box">
+                    <li><a class="footer-link" href="index.html">Home</a></li>
+                    <li><a class="footer-link" href="#">About</a></li>
+                    <li><a class="footer-link" href="#">Contact</a></li>
+                    <li><a class="footer-link" href="signin.html">Login</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Terms and Quick Links</h4>
+                <ul class="footer-box">
+                    <li><a class="footer-link" href="">Terms of usage</a></li>
+                    <li><a class="footer-link" href="">Link 1</a></li>
+                    <li><a class="footer-link" href="">Link 2</a></li>
+                    <li><a class="footer-link" href="">Link 3</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Address and Contact</h4>
+                <address class="footer-box">
+                    <p>City, Governorate, Country</p>
+                    <p>Phone:
+                        <a class="footer-link" href="tel:0964-000-000-0000">0964 000 000 0000</a>
+                    </p>
+                    <p>Email:
+                        <a class="footer-link email" href="mailto:example@domain.com">example@domain.com</a>
+                    </p>
+                </address>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

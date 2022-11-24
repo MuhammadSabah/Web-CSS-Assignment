@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/styles.css">
+    <title>Schedule</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div>
+                <a width="80" alt="logo">
+                    <img src="img/astronaut.jpg" alt="logo" class="header-logo">
+                </a>
+                <h1 class="title">Muhammad Sabah Ibrahim</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li class="nav-item dropdown-container">
+                        <a class="nav-link" href="">Layout Design &#x25BC;</a>
+                        <ul class="dropdown-items-container">
+                            <li><a class="nav-sub-link" href=" layout/float.html">Float layout with side nav</a>
+                            </li>
+                            <li><a class="nav-sub-link" href="layout/flex.html">Flexbox layout with side nav</a></li>
+                            <li><a class="nav-sub-link" href="layout/grid.html">Blog grid view</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="signup.html">Signup</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signin.html">Signin</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="seminar-container">
+            <h2>Seminar Schedule</h2>
+            <div class="table-container">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th rowspan="3">Day</th>
+                            <th colspan="10">Seminars</th>
+
+                        </tr>
+                        <tr>
+                            <th colspan="3">Morning Sessions</th>
+                            <th colspan="3">Evening Sessions</th>
+
+                        </tr>
+                        <tr>
+                            <th>Begin</th>
+                            <th>End</th>
+                            <th>Topic</th>
+                            <th>Begin</th>
+                            <th>End</th>
+                            <th>Topic</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="td-day" rowspan="2">Monday</td>
+                            <td rowspan="2">8:00 AM</td>
+                            <td rowspan="2">11:00 AM</td>
+                            <td>Introduction to XML</td>
+                            <td>01:30 PM</td>
+                            <td>03:00 PM</td>
+                            <td>HTML Language</td>
+                        </tr>
+                        <tr>
+                            <td>CSS Language</td>
+                            <td>03:30 PM</td>
+                            <td>05:00 PM</td>
+                            <td>Web Accessibility</td>
+                        </tr>
+                        <tr>
+                            <td class="td-day" rowspan="3">Tuesday</td>
+                            <td>08:00 AM</td>
+                            <td>10:00 AM</td>
+                            <td rowspan="2">Introduction to Javascript</td>
+                            <td>02:00 PM</td>
+                            <td>03:30 PM</td>
+                            <td>The DOM</td>
+                        </tr>
+                        <tr>
+                            <td>10:30 PM</td>
+                            <td>12:00 PM</td>
+                            <td rowspan="2">04:00 PM</td>
+                            <td rowspan="2">06:00 PM</td>
+                            <td rowspan="2">Advanced Javascript</td>
+                        </tr>
+                        <tr>
+                            <td>9:00 AM</td>
+                            <td>11:00 AM</td>
+                            <td>Web Design and Bootstrap</td>
+                        </tr>
+                        <tr>
+                            <td class="td-day">Wednesday</td>
+                            <td>09:00 AM</td>
+                            <td>11:00 AM</td>
+                            <td>Introduction to ReactJS</td>
+                            <td>01:00 PM</td>
+                            <td>03:00 PM</td>
+                            <td>Introduction to Nodejs</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div>
+                <h4>Sitemap</h4>
+                <ul class="footer-box">
+                    <li><a class="footer-link" href="index.html">Home</a></li>
+                    <li><a class="footer-link" href="#">About</a></li>
+                    <li><a class="footer-link" href="#">Contact</a></li>
+                    <li><a class="footer-link" href="signin.html">Login</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Terms and Quick Links</h4>
+                <ul class="footer-box">
+                    <li><a class="footer-link" href="">Terms of usage</a></li>
+                    <li><a class="footer-link" href="">Link 1</a></li>
+                    <li><a class="footer-link" href="">Link 2</a></li>
+                    <li><a class="footer-link" href="">Link 3</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Address and Contact</h4>
+                <address class="footer-box">
+                    <p>City, Governorate, Country</p>
+                    <p>Phone:
+                        <a class="footer-link" href="tel:0964-000-000-0000">0964 000 000 0000</a>
+                    </p>
+                    <p>Email:
+                        <a class="footer-link email" href="mailto:example@domain.com">example@domain.com</a>
+                    </p>
+                </address>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
